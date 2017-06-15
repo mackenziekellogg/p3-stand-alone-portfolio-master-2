@@ -1,0 +1,92 @@
+/* Grand Central Station. Operator. Main. */
+// Imports
+@import "normalize";
+@import "lightgallery";
+@import "lg-transitions";
+@import url('https://fonts.googleapis.com/css?family=Raleway:900');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+// Layout
+main {
+    background: #fff;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 70%;
+}
+
+// RWD header img
+main header img {
+    width: 100%;
+    max-width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3em;
+    font-weight: 900;
+
+}
+
+div.lg-sub-html {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+}
+
+div#lg-counter {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+}
+
+span#lg-counter-current {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+}
+
+span#lg-counter-all {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+}
+
+// Random Backgrounds
+.bg0 {
+  background: #041a55;
+
+}
+
+.bg1 {
+  background: #1f4628;
+}
+
+.bg2 {
+  background: #657076;
+}
+
+// Portfolio Items
+// Flexbox Layout
+article {
+    
+  margin: 0 auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+article figure {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+  background: white;
+  padding: 0em;
+
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+
+
