@@ -15,6 +15,7 @@ main {
 header {
     margin-top: auto;
     text-align: center;
+    padding: 15px;
 }
 
 h1 {
@@ -26,10 +27,9 @@ h1 {
     top-margin: 4em;
 
 }
-h3 {
-    font-size: 1em;
-    text-align: center;
-    font-family: 'Glacial Indifference';
+p {
+    text-align: center; 
+}
 }
 div.lg-sub-html {
     font-size: 2em;
