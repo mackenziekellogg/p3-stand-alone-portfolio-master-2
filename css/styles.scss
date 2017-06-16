@@ -3,8 +3,6 @@
 @import "normalize";
 @import "lightgallery";
 @import "lg-transitions";
-@import url('https://fonts.googleapis.com/css?family=Raleway:900');
-@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 
 // Layout
@@ -15,15 +13,21 @@ main {
     max-width: 70%;
 }
 
-// RWD header img
 
 h1 {
     text-align: center;
     font-size: 3em;
     font-weight: 900;
+    font-family: Glacial Indifference;
+    color: black;
+    top-margin: 4em;
 
 }
-
+p {
+    text-algn: center;
+    font-family: Glacial Indifference;
+    color: charcol;
+}
 div.lg-sub-html {
     font-size: 2em;
 }
